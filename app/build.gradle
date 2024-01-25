@@ -76,9 +76,15 @@ dependencies {
 	implementation 'com.shehabic.droppy:Droppy:0.5.1@aar'
 	implementation 'org.fourthline.cling:cling-core:2.1.1'
 	implementation 'org.fourthline.cling:cling-support:2.1.1'
-	implementation 'org.eclipse.jetty:jetty-server:8.1.16.v20140903'
-	implementation 'org.eclipse.jetty:jetty-servlet:8.1.16.v20140903'
-	implementation 'org.eclipse.jetty:jetty-client:8.1.16.v20140903'
+	implementation ('org.eclipse.jetty:jetty-server:8.1.22.v20160922') {
+		exclude group: 'org.eclipse.jetty.orbit', module: 'javax.servlet'
+	}
+	implementation ('org.eclipse.jetty:jetty-servlet:8.1.22.v20160922')  {
+		exclude group: 'org.eclipse.jetty.orbit', module: 'javax.servlet'
+	}
+	implementation ('org.eclipse.jetty:jetty-client:8.1.22.v20160922') {
+		exclude group: 'org.eclipse.jetty.orbit', module: 'javax.servlet'
+	}
 	implementation 'androidx.vectordrawable:vectordrawable:1.0.0'
 	androidTestImplementation "androidx.test:runner:1.5.2"
 	androidTestImplementation "androidx.test:rules:1.5.0"
