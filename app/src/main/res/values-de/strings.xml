@@ -389,7 +389,7 @@
 	<string name="settings.menu_options.title">Optionale Menü Einträge</string>
 	<string name="settings.menu_options.play_next_summary">Zeige \"Als nächstes abspielen\" im Menü</string>
 	<string name="settings.menu_options.play_last_summary">Zeige \"Als letztes abspielen\" im Menü</string>
-	<string name="settings.menu_options.star_summary">Zeige Favorit im Menü</string>
+	<string name="settings.menu_options.star_summary">Zeige \"Favorit\" im Menü</string>
 	<string name="settings.menu_options.shared_summary">Zeige \"Freigeben\" im Menü</string>
 	<string name="settings.menu_options.rate_summary">Zeige \"Bewerten\" im Menü</string>
 	<string name="settings.browse_by_tags">Tags nutzen</string>
@@ -656,5 +656,18 @@
 	<string name="settings.tap_cover_for_playlist_summary">Zeige die aktuelle Wiedergabeliste wenn auf das Albumcover getippt wird</string>
 	<string name="settings.combine_thumbs_up_down">Bewertungsknöpfe zusammenfassen</string>
 	<string name="settings.combine_thumbs_up_down_summary">Vereint die \"Daumen hoch\" und \"Daumen runter\" Knöpfe zu einem Knopf, welcher einen Bewertungsdialog öffnet</string>
+	<string name="download.batch_mode">Batch-Modus</string>
+	<string name="settings.file_suffix">Dateityp anzeigen</string>
+	<string name="settings.file_suffix_summary">Dateitypen der Musikdateien anzeigen</string>
+	<string name="settings.internet_radio_enabled">Internetradio aktviert</string>
+	<string name="settings.internet_radio_enabled_summary">Internetradio im Seitenmenü anzeigen</string>
+	<string name="settings.song_press_action">Aktion bei Songauswahl</string>
+	<string name="settings.song_press_play_single">Nur diesen Song wiedergeben</string>
+	<string name="settings.song_press_play_all">Das ganze Album zur Wiedergabeliste hinzufügen</string>
+	<string name="settings.song_press_play_next">Diesen Song als nächstes wiedergeben</string>
+	<string name="settings.song_press_play_last">Diesen Song an das Ende der Wiedergabeliste setzen</string>
+	<string name="settings.rewind_interval">Rückspul-Interval</string>
+	<string name="settings.fastforward_interval">Vorspul-Interval</string>
+	<string name="permission.external_storage.failed">DSub funktioniert ohne Schreibzugriff auf den Speicher nicht</string>
 
 </resources>
